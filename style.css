@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', Sans-Serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards-section {
+  width: 100%;
+  padding: 1rem;
+  background: #fff;
+}
+.container {
+  width: 330px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-1,
+.card-2,
+.card-3 {
+  background: #fff;
+  width: 95%;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(0,0,0,0.468);
+  overflow: hidden;
+  transition: transform 0.25s;
+}
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  transform: translateY(-15px);
+}
+.card-img {
+  width: 100%;
+}
+.card-img img {
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
+.card-1 h5 {
+  color: #dd7934;
+  text-align: center;
+  margin: 0.75rem 0;
+}
+.card-2 h5 {
+  color: #37bbdc;
+  text-align: center;
+  margin: 0.75rem 0;
+}
+.card-3 h5 {
+  color: #9748e8;
+  text-align: center;
+  margin: 0.75rem 0;
+}
+.card-body p {
+  margin: 1rem;
+  text-align: center;
+}
+.tail {
+  width: 100%;
+  height: 75px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
+.card-1 .tail {
+  background: linear-gradient(45deg, rgb(244,143,45), rgb(22,26,27));
+}
+.card-2 .tail {
+  background: linear-gradient(45deg, rgb(88,122,221), rgb(221,215,197));
+}
+.card-3 .tail {
+  background: linear-gradient(45deg, rgb(151,72,232), rgb(244,48,9), rgb(133,238,30));
+}
+.tail h4 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.tail p {
+  margin: 0;
+}
